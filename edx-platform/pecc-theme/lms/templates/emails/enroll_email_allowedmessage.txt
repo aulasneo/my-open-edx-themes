@@ -1,0 +1,9 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+Estimado Proveedor,
+
+Ha sido invitado para participar al curso Introducción al Portal Electrónico de Compras y Contrataciones - guía para el proveedor en http://cursos.deproveedores.com.ar.
+
+Para concluir su proceso de registro, visite  http://cursos.deproveedores.com.ar/register y complete el fomulario asegurándose de utilizar ${email_address} en la casilla de correo electrónico.
+Una vez se haya registrado y haya activado su cuenta, verá el curso Introducción al Portal Electrónico de Compras y Contrataciones - guía para el proveedor en su panel principal.
+

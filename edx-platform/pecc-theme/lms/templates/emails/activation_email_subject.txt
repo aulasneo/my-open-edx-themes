@@ -1,0 +1,2 @@
+<%! from django.utils.translation import ugettext as _ %>
+Active su curso de Portal de Proveedores
