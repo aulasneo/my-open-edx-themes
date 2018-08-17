@@ -1,0 +1,16 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+Estimada/o:
+
+${_("Usted fue inscripto en el Curso de {course_name} en {site_name} por un miembro del equipo. El curso debe aparecer ahora en su panel principal de {site_name}.").format(course_name=course_name, site_name=site_name)}
+
+
+${_("To start accessing course materials, please visit {course_url}").format(
+		course_url=course_url
+	)}
+
+----
+${_("This email was automatically sent from {site_name} to "
+	"{full_name}").format(
+		site_name=site_name, full_name=full_name
+	)}
