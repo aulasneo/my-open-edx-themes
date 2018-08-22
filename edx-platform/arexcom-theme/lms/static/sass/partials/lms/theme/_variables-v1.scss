@@ -449,7 +449,16 @@ $action-secondary-disabled-fg: $white !default;
 $link-hover: $uxpl-blue-hover-active !default; // from our Pattern Library http://ux.edx.org/design_elements/colors/
 $site-status-color: $pink !default;
 $button-color: theme-color("primary") !default;
-$button-archive-color: rgb(238, 238, 238) !default; // #eeeeee
+
+
+
+
+// Aulasneo para Arexcom
+// $button-archive-color: rgb(238, 238, 238) !default; // #eeeeee
+$button-archive-color: rgb(150, 150, 250) !default;
+
+
+
 
 // larger, random elements
 $dark-trans-bg: rgba(0, 0, 0, 0.75) !default;
