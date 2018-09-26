@@ -1,0 +1,13 @@
+<%! from django.utils.translation import ugettext as _ %>
+Ya está casi listo! Use el siguiente enlace para acceder a los cursos de la AIE.
+Note que no podrá acceder a la plataforma hasta que active su cuenta.
+
+% if is_secure:
+https://${ site }/activate/${ key }
+% else:
+http://${ site }/activate/${ key }
+% endif
+
+Si tiene problemas, envíenos un email a ayuda@aulasneo.com
+
+Este mensaje fue enviado automáticamente por http://cursos.aiearg.org.ar porque alguien intentó crear una cuenta con esta dirección de email.
