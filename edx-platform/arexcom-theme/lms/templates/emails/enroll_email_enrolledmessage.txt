@@ -2,7 +2,7 @@
 
 Estimada/o:
 
-${_("Usted ha solicitado la inscripción al curso {course_name} de AREXCOM SRL. El curso debe aparecer ahora en su panel principal de {site_name}.").format(course_name=course_name, site_name=site_name)}
+${_("Usted ha solicitado la inscripción al curso {course_name} de AREXCOM SRL. El curso debe aparecer ahora en su panel principal de {site_name}.".encode('utf-8')).format(course_name=course_name, site_name=site_name)}
 
 
 ${_("To start accessing course materials, please visit {course_url}").format(

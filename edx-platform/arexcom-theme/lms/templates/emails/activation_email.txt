@@ -13,7 +13,7 @@ ${_("Enjoy learning with Arexcom SRL.")}
 
 ${_("El equipo de Arexcom")}
 
-${_("Si necesita ayuda, mándenos un correo a consultas@arexcom.com.ar.")}
+${_("Si necesita ayuda, mándenos un correo a consultas@arexcom.com.ar.".encode('utf-8'))}
 
 ${_("This email message was automatically sent by {lms_url} because someone attempted to create an "
 "account on {platform_name} using this email address.").format(
