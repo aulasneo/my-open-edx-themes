@@ -2,7 +2,7 @@
 
 ${_("Estimado/a:")}
 
-${_("Usted ha solicitado la inscripción al curso {course_name} de AREXCOM SRL.").format(
+${_("Usted ha solicitado la inscripción al curso {course_name} de AREXCOM SRL.".encode('utf-8').format(
 		course_name=display_name or course.display_name_with_default_escaped
 	)}
 % if is_shib_course:
