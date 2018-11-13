@@ -2,10 +2,8 @@
 
 ${_("Estimado/a:")}
 
-${_("Usted fue invitado al curso {course_name} de {site_name} por un "
-	"miembro del equipo del curso.").format(
-		course_name=display_name or course.display_name_with_default_escaped,
-		site_name=site_name
+${_("Usted ha solicitado la inscripción al curso {course_name} de AREXCOM SRL.").format(
+		course_name=display_name or course.display_name_with_default_escaped
 	)}
 % if is_shib_course:
 % if auto_enroll:
