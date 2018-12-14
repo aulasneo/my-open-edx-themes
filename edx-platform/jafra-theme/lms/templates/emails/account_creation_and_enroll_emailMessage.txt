@@ -1,0 +1,14 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+${_("Welcome to {course_name}").format(course_name=course.display_name_with_default_escaped)}
+
+${_("Para comenzar, por favor visita http://{site_name}. A continuación se encuentra la información para acceder a la cuenta.".decode('utf-8')).format(site_name=site_name)}
+
+${_("email: {email}").format(email=email_address)}
+${_("password: {password}").format(password=password)}
+
+${_("It is recommended that you change your password.")}
+
+${_("Sincerely yours,"
+""
+"The {course_name} Team").format(course_name=course.display_name_with_default_escaped)}
