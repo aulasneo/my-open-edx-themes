@@ -15,7 +15,7 @@
 
 // page set up - only available to modern browsers now
 @page {
-  size : portrait;
+  size : 215.9mm 355.6mm portrait;  // ceef
 }
 
 @media print {
@@ -73,7 +73,7 @@
 
   body {
     height: auto;
-    margin: spacing-vertical(mid-large) spacing-vertical(mid-small) 0 spacing-vertical(mid-small) !important;
+    // margin: spacing-vertical(mid-large) spacing-vertical(mid-small) 0 spacing-vertical(mid-small) !important; // ceef
     padding: 0;
   }
 
@@ -109,7 +109,7 @@
     @extend %print-hide;
   }
 
-  // remove layout wrappers' padding
+  // remove layout wrappers padding
   .wrapper-introduction,
   .wrapper-accomplishment-rendering,
   .wrapper-accomplishment-metadata {
@@ -209,6 +209,8 @@
 
     .accomplishment-type-symbol {
       @include size(rem(75));
+
+      display: none; // ceef
 
       border: none !important;
     }

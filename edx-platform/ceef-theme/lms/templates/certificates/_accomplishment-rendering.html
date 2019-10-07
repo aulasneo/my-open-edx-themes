@@ -25,7 +25,9 @@ course_mode_class = course_mode if course_mode else ''
             <div class="wrapper-statement-and-signatories">
                 <div class="accomplishment-statement">
                     <p class="accomplishment-statement-lead">
-			A<br/><br/>
+                <br><br><br><br><!-- Aulasneo: para mayor espacio para tamaño legal-->
+			A<br>
+                <br><br><br><br><!-- Aulasneo: para mayor espacio para tamaño legal-->
                         <strong>${accomplishment_copy_name | h}</strong><br/><br/>
                         por haber aprobado y reunido<br/>
                         los requisitos establecidos, en el curso de<br/><br/>
@@ -44,6 +46,9 @@ course_mode_class = course_mode if course_mode else ''
 
                     <!--p class="accomplishment-statement-detail copy copy-lead">${accomplishment_copy_course_description}</p-->
                 </div>
+
+                <br><br><br><br><!-- Aulasneo: para mayor espacio para tamaño legal-->
+                <br><br><br><br><!-- Aulasneo: para mayor espacio para tamaño legal-->
 
                 % if mode != 'base':
                 <div class="accomplishment-signatories">
@@ -68,6 +73,9 @@ course_mode_class = course_mode if course_mode else ''
                     </div>
                 </div>
                 % endif
+
+                <br><br><br><br><!-- Aulasneo: para mayor espacio para tamaño legal-->
+
             </div>
 
             <div class="accomplishment-orgs">
@@ -89,8 +97,7 @@ course_mode_class = course_mode if course_mode else ''
                     % endif
                 </ul>
             </div>
-        </div>
-    </div>
+
 
     <div class="wrapper-accomplishment-metadata">
         <div class="accomplishment-metadata">
@@ -121,4 +128,6 @@ course_mode_class = course_mode if course_mode else ''
         </div>
     </div>
 
+        </div>
+    </div>
 </main>
